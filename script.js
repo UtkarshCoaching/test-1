@@ -268,7 +268,7 @@ function startQuestionTimer() {
     }, 1000);
 }
 
-// Function to shuffle an array (Fisher-Yates shuffle)
+// Function to shuffle an array (Fisher-Yates shuffle) - This function is no longer called for options
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -303,11 +303,11 @@ function loadQuestion() {
         skipButton.style.display = 'none'; // Hide skip button on last question
     }
 
-    // Shuffle options before displaying them
-    const shuffledOptions = [...currentQuestion.options]; // Create a copy to shuffle
-    shuffleArray(shuffledOptions);
+    // Removed the shuffling of options here
+    // const shuffledOptions = [...currentQuestion.options]; // Create a copy to shuffle
+    // shuffleArray(shuffledOptions); // This line is removed
 
-    shuffledOptions.forEach(option => { // Use shuffledOptions here
+    currentQuestion.options.forEach(option => { // Now directly use currentQuestion.options
         const button = document.createElement('button');
         button.classList.add('option');
         button.textContent = option;
