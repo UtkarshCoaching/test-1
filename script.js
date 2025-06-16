@@ -1,176 +1,176 @@
 const questions = [
  {
-    image: "1.jpg",
+    image: "1.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)" // Keep 'answer' property
   },
   {
-    image: "2.jpg",
+    image: "2.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "3.jpg",
+    image: "3.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(c)"
   },
   {
-    image: "4.jpg",
+    image: "4.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(d)"
   },
   {
-    image: "5.jpg",
+    image: "5.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "6.jpg",
+    image: "6.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "7.jpg",
+    image: "7.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "8.jpg",
+    image: "8.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(c)"
   },
   {
-    image: "9.jpg",
+    image: "9.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "10.jpg",
+    image: "10.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "11.jpg",
+    image: "11.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "12.jpg",
+    image: "12.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(d)"
   },
   {
-    image: "13.jpg",
+    image: "13.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "14.jpg",
+    image: "14.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "15.jpg",
+    image: "15.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(d)"
   },
   {
-    image: "16.jpg",
+    image: "16.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "17.jpg",
+    image: "17.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)", "(e)"],
     answer: "(e)"
   },
   {
-    image: "18.jpg",
+    image: "18.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(d)"
   },
   {
-    image: "19.jpg",
+    image: "19.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "20.jpg",
+    image: "20.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(c)"
   },
   {
-    image: "21.jpg",
+    image: "21.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "22.jpg",
+    image: "22.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(c)"
   },
   {
-    image: "23.jpg",
+    image: "23.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "24.jpg",
+    image: "24.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(b)"
   },
   {
-    image: "25.jpg",
+    image: "25.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "26.jpg",
+    image: "26.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(d)"
   },
   {
-    image: "27.jpg",
+    image: "27.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(c)"
   },
   {
-    image: "28.jpg",
+    image: "28.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "29.jpg",
+    image: "29.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(c)"
   },
   {
-    image: "30.jpg",
+    image: "30.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "31.jpg",
+    image: "31.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(c)"
   },
   {
-    image: "32.jpg",
+    image: "32.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "33.jpg",
+    image: "33.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(a)"
   },
   {
-    image: "34.jpg",
+    image: "34.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(d)"
   },
   {
-    image: "35.jpg",
+    image: "35.JPG", // .JPG করে দেওয়া হয়েছে
     options: ["(a)", "(b)", "(c)", "(d)"],
     answer: "(c)"
   }
@@ -388,7 +388,7 @@ function showAnswer() {
     Array.from(optionsContainer.children).forEach(optionBtn => {
         optionBtn.style.pointerEvents = 'none'; // Disable clicking
         if (optionBtn.textContent === correctAnswer) {
-            optionBtn.classList.add('correct'); // Highlight correct answer
+                optionBtn.classList.add('correct'); // Highlight correct answer
         }
     });
     feedbackMessage.textContent = `সঠিক উত্তর: ${correctAnswer}`; // Updated feedback for both skip and time up
