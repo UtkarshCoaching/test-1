@@ -181,7 +181,7 @@ h2 {
     padding: 15px; /* Adjust padding for image */
     margin: 0 auto 30px auto;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    min-height: 150px; /* Ensure a minimum height for the box */
+    min-height: 220px; /* Increased minimum height for larger image */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,7 +189,7 @@ h2 {
 
 .question-image {
     max-width: 100%;
-    max-height: 180px; /* Adjust max height for images within the box */
+    max-height: 200px; /* Increased max height for larger image */
     object-fit: contain; /* Ensures the image fits without distortion */
     border-radius: 5px; /* Slight roundness for image if desired */
 }
@@ -198,19 +198,21 @@ h2 {
 /* Options */
 .options-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns as in image */
-    gap: 20px; /* Increased gap */
+    /* Changed to 2 columns with fixed width for options */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjusted for smaller buttons */
+    gap: 15px; /* Slightly reduced gap */
     margin-top: 25px;
+    justify-content: center; /* Center the grid items if they don't fill the space */
 }
 .option {
     background-color: #87ceeb; /* Sky blue as in image */
     color: white; /* White text for options */
-    padding: 18px; /* Increased padding */
+    padding: 12px 18px; /* Reduced padding for smaller buttons */
     border-radius: 8px;
     cursor: pointer;
     text-align: center; /* Centered text for options */
     transition: background-color 0.2s ease, transform 0.1s ease, border 0.2s ease;
-    font-size: 1.1em;
+    font-size: 1em; /* Slightly smaller font size */
     font-weight: 600; /* Slightly bolder text */
     border: none; /* No default border */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -342,18 +344,18 @@ h2 {
     }
     .question-image-box {
         padding: 10px;
-        min-height: 120px;
+        min-height: 180px; /* Adjusted for smaller screens */
     }
     .question-image {
-        max-height: 150px;
+        max-height: 160px; /* Adjusted for smaller screens */
     }
     .options-container {
-        grid-template-columns: 1fr; /* Single column for options on small screens */
-        gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjusted for smaller buttons on small screens */
+        gap: 10px; /* Reduced gap for small screens */
     }
     .option {
-        padding: 15px;
-        font-size: 1em;
+        padding: 10px 15px; /* Reduced padding for smaller buttons */
+        font-size: 0.9em; /* Even smaller font size */
     }
     .controls {
         flex-direction: column; /* Stack buttons vertically */
@@ -374,14 +376,14 @@ h2 {
 
 @media (max-width: 400px) {
     .question-timer-circle {
-        width: 60px; /* Even smaller for very small screens */
-        height: 60px; /* Even smaller for very small screens */
+        width: 60px;
+        height: 60px;
     }
     .progress-ring-track, .progress-ring-bar {
-        stroke-width: 4; /* Thinner stroke */
-        r: 26; /* Adjusted radius for 60px container ((60 - 4) / 2 = 26) */
-        cx: 30; /* Adjusted center for 60px container (60 / 2 = 30) */
-        cy: 30; /* Adjusted center for 60px container (60 / 2 = 30) */
+        stroke-width: 4;
+        r: 26;
+        cx: 30;
+        cy: 30;
     }
     .question-timer-text {
         font-size: 1.3em;
@@ -395,9 +397,16 @@ h2 {
     }
     .question-image-box {
         padding: 8px;
-        min-height: 100px;
+        min-height: 150px; /* Adjusted for very small screens */
     }
     .question-image {
-        max-height: 120px;
+        max-height: 130px; /* Adjusted for very small screens */
+    }
+    .options-container {
+        gap: 8px; /* Even smaller gap for very small screens */
+    }
+    .option {
+        padding: 8px 12px; /* Even smaller padding */
+        font-size: 0.85em; /* Even smaller font size */
     }
 }
